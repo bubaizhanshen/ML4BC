@@ -209,7 +209,7 @@ class AdsorptionModelAnalysis:
         }
 
 def main():
-    file_path = r"D:\桌面\Sr\预测生物炭对重金属吸附能力.xlsx"
+    file_path = r"D:\Sr.xlsx"
     analysis = AdsorptionModelAnalysis(file_path)
     analysis.run_analysis()
 
